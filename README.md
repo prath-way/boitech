@@ -1,73 +1,69 @@
-# Welcome to your Lovable project
+BioGuard.AI is an AI-driven health platform designed to provide users with essential medical information, health predictions, emergency support, and wellness guidance.
+Our mission is to empower users with accessible, reliable, and timely healthcare resources—all at their fingertips.
 
-## Project info
+The platform integrates six intelligent modules that cover key aspects of health and well-being.
 
-**URL**: https://lovable.dev/projects/bb64f483-4680-43e4-8637-d786238cd822
+🧩 Key Modules
+1. MedGuard 💊
 
-## How can I edit this code?
+Provides detailed medicine information (usage, side effects, dosage).
 
-There are several ways of editing your application.
+Suggests alternative medicines for better decision-making.
 
-**Use Lovable**
+Simple, user-friendly interface for quick searches.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/bb64f483-4680-43e4-8637-d786238cd822) and start prompting.
+2. PredictGuard 🔮
 
-Changes made via Lovable will be committed automatically to this repo.
+Symptom analysis to identify possible diseases.
 
-**Use your preferred IDE**
+AI-driven disease predictions.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Suggests treatment recommendations based on symptoms.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+3. MindGuard 🧠
 
-Follow these steps:
+Mental health assessments via interactive questionnaires.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+AI-powered mental well-being insights.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Provides support suggestions and resources.
 
-# Step 3: Install the necessary dependencies.
-npm i
+4. FitGuard 🏋️‍♂️
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Collects health stats (height, weight, history) for tailored plans.
 
-**Edit a file directly in GitHub**
+Computes BMI to track fitness.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Generates personalized fitness & diet plans.
 
-**Use GitHub Codespaces**
+5. RescueGuard 🚑
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Provides emergency contact numbers (hospitals, ambulances).
 
-## What technologies are used for this project?
+Displays nearby hospital locations.
 
-This project is built with:
+Estimates response time for quick help.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+6. FundGuard 💰
 
-## How can I deploy this project?
+Offers quick loan information for emergencies.
 
-Simply open [Lovable](https://lovable.dev/projects/bb64f483-4680-43e4-8637-d786238cd822) and click on Share -> Publish.
+Connects with private lenders.
 
-## Can I connect a custom domain to my Lovable project?
+Provides urgent funding contacts.
 
-Yes, you can!
+🚀 Features
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+✔️ AI-powered health predictions & insights
+✔️ Medication reminders & alternative suggestions
+✔️ Personalized fitness and diet plans
+✔️ Emergency assistance with real-time hospital locations
+✔️ Financial aid guidance in critical situations
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+🔮 Future Prospects
+
+Integration with healthcare providers for real-time consultations.
+
+Advanced AI analytics for more accurate diagnosis and treatment.
+
+Additional modules like GenGuard, DataGuard, and ScanGuard for genetic, data, and scan-based insights.
