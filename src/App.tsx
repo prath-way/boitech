@@ -14,30 +14,33 @@ import FundGuard from "./pages/FundGuard";
 import HealthJournal from "./pages/HealthJournal";
 import NotFound from "./pages/NotFound";
 import Navbar from "./components/Navbar";
+import { ThemeProvider } from "@/components/ThemeProvider";
 
 const queryClient = new QueryClient();
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
-    <TooltipProvider>
-      <Toaster />
-      <Sonner />
-      <BrowserRouter>
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Dashboard />} />
-          <Route path="/chatbot" element={<Chatbot />} />
-          <Route path="/medguard" element={<MedGuard />} />
-          <Route path="/predictguard" element={<PredictGuard />} />
-          <Route path="/mindguard" element={<MindGuard />} />
-          <Route path="/fitguard" element={<FitGuard />} />
-          <Route path="/rescueguard" element={<RescueGuard />} />
-          <Route path="/fundguard" element={<FundGuard />} />
-          <Route path="/health-journal" element={<HealthJournal />} />
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-      </BrowserRouter>
-    </TooltipProvider>
+    <ThemeProvider defaultTheme="light" storageKey="bioguard-ui-theme">
+      <TooltipProvider>
+        <Toaster />
+        <Sonner />
+        <BrowserRouter>
+          <Navbar />
+          <Routes>
+            <Route path="/" element={<Dashboard />} />
+            <Route path="/chatbot" element={<Chatbot />} />
+            <Route path="/medguard" element={<MedGuard />} />
+            <Route path="/predictguard" element={<PredictGuard />} />
+            <Route path="/mindguard" element={<MindGuard />} />
+            <Route path="/fitguard" element={<FitGuard />} />
+            <Route path="/rescueguard" element={<RescueGuard />} />
+            <Route path="/fundguard" element={<FundGuard />} />
+            <Route path="/health-journal" element={<HealthJournal />} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </BrowserRouter>
+      </TooltipProvider>
+    </ThemeProvider>
   </QueryClientProvider>
 );
 
